@@ -1,0 +1,67 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+ *{ 
+margin: 0;
+padding: 0;
+box-sizing: border-box;s
+ }
+
+body{
+
+	font-family: arial ;
+	font-size: 10px;
+	margin: 5% 10% ;
+	/*background-color: #87CEEB*/
+	background-image: url(https://cdn.pixabay.com/photo/2020/03/09/16/02/silk-4916174_1280.jpg);
+	background-size: cover;
+	/*background-position: top;*/
+	background-attachment: fixed;
+
+}
+p{
+	font-size: 2em; /*tamanho da fonte*/
+	margin: 30px;
+	text-align: justify;
+	text-indent: 150px;
+	font-family:"Poppins", sans-serif;
+}
+
+h1 { text-align: center; 
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+hr{ 
+	margin: 30px;
+ }
+
+ img{ 
+
+    width: 600px;
+    height: 600px;
+    /*border: dotted; 15px */
+    border-radius: 100%;
+    box-shadow: 10px 10px 50px black;
+    filter:  drop-shadow(1px 1px 20px DeepSkyBlue);
+    filter:  hue-rotate(20deg);
+    filter: grayscale(100%);
+    blur: 10px;
+    /*opacity: 80%;*/
+    contrast: 50%;
+    margin: 100px;
+  }
+
+  img:hover{
+  	filter: grayscale(0);
+  	border-radius: 100%;
+  	transform: scale(0.99);
+  	transform: rotate(5deg);
+   }
+
+   div{
+ background-color: LightSeaGreen ;
+
+   }
